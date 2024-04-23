@@ -24,22 +24,27 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 45.4px;
 }
 
 /* Check list styling */
 nav ul {
   display: flex;
   gap: 48px;
+  list-style-type: none;
 }
 
 /* Check list link style */
 nav ul li a {
-
+  color: #1F1534;
+  text-decoration: none;
+  font-size: 18px;
+  
 }
 
 /* Make text bold on hover */
 nav ul li a:hover {
-  
+  font-weight: bold;
 }
 
 
@@ -53,15 +58,30 @@ main {
 /* Check margin and font styling */
 .text h1 {
   font-family: 'Mulish', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
 /* Check font styling */
 .text h1 span {
+  font-weight: 700;
+  color: #89C5CC;
 }
 
 /* Check font styling */
 .text p {
   font-family: 'Open Sans', sans-serif; 
+  width: 448px;
+  height: 78px;
+  top: 360px;
+  left: 120px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
 }
 
 /* Check font styling and make sure the button is rounded */
@@ -69,15 +89,32 @@ main {
   font-family: 'Open Sans', sans-serif;
   display: flex;
   gap: 8px;
+  border-radius: 4px;
+  color: #f9f9f9;
+  background-color: #69B99D;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  top: 460px;
+  left: 120px;
+  padding: 14px 32px 15px 32px;
+  width: 169px;
+  height: 56px;
+  margin-top: 40px;
 }
 
 /* Handle when user hover on the button */
 .text button:hover {
+  background-color: #4A9A7E;
+  cursor: pointer;
 }
 
 /* Check the text styling */
 footer {
-  font-family: 'Open Sans', sans-serif; 
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Check the text styling */
@@ -85,6 +122,7 @@ footer a {
   color: #000;
   text-decoration: none;
   font-weight: 700;
+  align-items: center;
 }
 
 #balls {
@@ -92,4 +130,3 @@ footer a {
   bottom: 0px;
   right: 0px;
 }
-
